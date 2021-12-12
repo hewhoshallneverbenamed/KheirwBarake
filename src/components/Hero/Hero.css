@@ -124,28 +124,7 @@ label {
   color: #666;
 }
 
-ul.pagination li {
-  margin-right: 10px;
-}
 
-ul.pagination li a {
-  border-radius: 3px !important;
-  font-size: 16px;
-  padding: 0;
-  height: 50px;
-  width: 50px;
-  line-height: 50px;
-  text-align: center;
-  border-color: transparent;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
-  color: #666;
-}
-
-ul.pagination .active a {
-  background-color: #5672f9 !important;
-  color: #fff !important;
-  border-color: transparent !important;
-}
 
 ul.social-circle-icons li {
   margin-right: 7px;
@@ -361,14 +340,12 @@ button {
   padding-top: 50px;
 }
 
-.overly {
-  position: relative;
-}
+
 
 .overly:before {
-  content: '';
+  
   background: rgba(0, 0, 0, 0.51);
-  position: absolute;
+  
   top: 0;
   left: 0;
   right: 0;
@@ -421,7 +398,7 @@ button {
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 15px 30px;
+  
   border-radius: 4px;
 }
 
@@ -552,35 +529,7 @@ button {
   margin-bottom: 0;
 }
 
-ul.pagination li {
-  margin-right: 10px;
-}
 
-ul.pagination li a {
-  font-weight: 600;
-  border-radius: 3px !important;
-  font-size: 16px;
-  padding: 0;
-  height: 40px;
-  width: 40px;
-  line-height: 40px;
-  text-align: center;
-  border-color: transparent;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
-  color: #666;
-}
-
-ul.pagination li a:hover {
-  background-color: #5672f9 !important;
-  color: #fff !important;
-  border-color: transparent !important;
-}
-
-ul.pagination .active a {
-  background-color: #5672f9 !important;
-  color: #fff !important;
-  border-color: transparent !important;
-}
 
 .page-search {
   background: #5672f9;

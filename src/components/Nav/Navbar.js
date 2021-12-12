@@ -1,12 +1,11 @@
 import './Navbar.css'
 import image from '../../assets/images/logo.jpg'
 import React from 'react'
-import '../../../node_modules/bootstrap/dist/css/bootstrap-grid.css'
-import '../../../node_modules/bootstrap/dist/css/bootstrap.css'
+
 
 function Navbar () {
     return (
-        <html>
+        
         	<div classNameName="col-md-12">
         		<nav className="navigation navbar navbar-expand-lg navbar-light ">
         			<a className="navbar-brand" href="index.html">
@@ -72,7 +71,7 @@ function Navbar () {
         			</div>
         		</nav>
         	</div>
-        </html>
+        
     )
 }
 

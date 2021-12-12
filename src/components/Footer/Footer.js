@@ -1,83 +1,131 @@
 import './Footer.css'
 import Footerimg from '../../assets/images/logo.jpg'
 import React from 'react'
-import '../../../node_modules/bootstrap/dist/css/bootstrap-grid.css'
-import '../../../node_modules/bootstrap/dist/css/bootstrap.css'
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import 'boxicons'
+// import 'font-awesome'
+// import '../../../node_modules/bootstrap/dist/css/bootstrap-grid.css'
+// import '../../../node_modules/bootstrap/dist/css/bootstrap.css'
+// import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 
 function Footer () {
     return(
-      <div>  
-        <footer className="footer section section-sm" >
-            {/* <!-- Container Start --> */}
-            <div className="footer-container">
-              <div className="row">
-                <div className="footer-section">
-                      {/* <!-- About --> */}
-                  <div className="block about ">
-                        {/* <!-- footer logo --> */}
-                       <img src={Footerimg} alt="" className="imge"/>
-                        {/* <!-- description --> */}
-                        <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                          laboris nisi ut aliquip ex ea commodo consequat.</p>
-                      </div>
-                    </div>
-                    {/* <!-- Link list --> */}
-                    <div className="footer-section">
-                      <div className="block ">
-                        <h4>Site Pages</h4>
-                        <ul className="">
-                          <li><a href="g">Boston</a></li>
-                          <li><a href="#">How It works</a></li>
-                          <li><a href="#">Deals & Coupons</a></li>
-                          <li><a href="#">Articls & Tips</a></li>
-                          <li><a href="terms-condition.html">Terms & Conditions</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    {/* <!-- Link list --> */}
-                    <div className="footer-section">
-                      <div className="block ">
-                        <h4>Admin Pages</h4>
-                        <ul className="">
-                          <li><a href="category.html">Category</a></li>
-                          <li><a href="single.html">Single Page</a></li>
-                          <li><a href="store.html">Store Single</a></li>
-                          <li><a href="single-blog.html">Single Post</a>
-                          </li>
-                          <li><a href="blog.html">Blog</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <footer class="footer-bottom">
-        {/* <!-- Container Start --> */}
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 col-12">
-              {/* <!-- Copyright --> */}
-              <div class="copyright">
-                <p>Copyright © 2022. All Rights Reserved</p>
-              </div>
-            </div>
-            <div class="col-sm-6 col-12">
-              {/* <!-- Social Icons --> */}
-              <ul class="social-media-icons text-right">
-                <li><a class="fa fa-facebook" href="https://www.facebook.com/themefisher" target="_blank"></a></li>
-                <li><a class="fa fa-twitter" href="https://www.twitter.com/themefisher" target="_blank"></a></li>
-                <li><a class="fa fa-pinterest-p" href="https://www.pinterest.com/themefisher" target="_blank"></a></li>
-                <li><a class="fa fa-vimeo" href=""></a></li>
-              </ul>
-            </div>
+<footer
+          class="text-center text-lg-start text-dark"
+          style={{backgroundColor: "#ECEFF1"}}
+          >
+   
+    <section
+             class="d-flex justify-content-between p-4 text-white"
+             style={{backgroundColor: "#ECEFF1"}}
+             >
+     
+      <div class="me-5">
+        
+      </div>
+     
+
+     
+    </section>
+   
+
+    
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+      
+        <div class="row mt-3">
+        
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          
+            <h6 class="text-uppercase fw-bold">Company name</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style={{width: "60px", backgroundColor: "#7c4dff" , height: "2px"}}
+                />
+            <p>
+              Here you can use rows and columns to organize your footer
+              content. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit.
+            </p>
           </div>
+          
+
+          
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            
+            <h6 class="text-uppercase fw-bold">Products</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style={{width: "60px", backgroundColor: "#7c4dff" , height: "2px"}}
+                />
+            <p>
+              <a href="#!" class="text-dark">MDBootstrap</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">MDWordPress</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">BrandFlow</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Bootstrap Angular</a>
+            </p>
+          </div>
+          
+
+          
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+           
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style={{width: "60px", backgroundColor: "#7c4dff" , height: "2px"}}
+                />
+            <p>
+              <a href="#!" class="text-dark">Your Account</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Become an Affiliate</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Shipping Rates</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Help</a>
+            </p>
+          </div>
+         
+
+         
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+           
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style={{width: "60px", backgroundColor: "#7c4dff" , height: "2px"}}
+                />
+            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          </div>
+          
         </div>
-        {/* <!-- Container End -->*/}
-      </footer>
+        
+      </div>
+    </section>
+    
+
+    
+    <div
+         class="text-center p-3"
+         style={{backgroundColor: "#34495E"  }}
+         >
+      © 2022 Copyright:MDBootstrap.com
+        
     </div>
+    
+  </footer>
      ) 
 }
 

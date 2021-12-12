@@ -8,12 +8,20 @@ import Contactus from './components/Contactus/Contactus';
 import Error from './pages/Error/Error404';
 import Login from './pages/acc_creation/Login.js';
 import Signup from './pages/acc_creation/Signup';
+import Dashboard from './pages/dashboard/Dashboard';
+import Single from './components/Single/Single';
+
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <Signup /> */}
+      <Homepage />
+      {/* <Dashboard /> */}
+      {/* <Single /> */}
+      {/* <Aboutus /> */}
       <Footer />
 
     </div>
